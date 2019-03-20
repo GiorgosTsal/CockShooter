@@ -20,12 +20,18 @@ namespace CockShooter
         int _cursY = 0;
 #endif
         CCock _cock;
+        CSplat _splat;
+        CSign _sign;
+        CScoreFrame _scoreframe;
 
         public CockShooter()
         {
             InitializeComponent();
 
-            _cock = new CCock() { Left = 10, Top = 200  };
+            _cock = new CCock() { Left = 10, Top = 450  };
+            _scoreframe = new CScoreFrame() { Left = 10, Top = 10 };
+            _sign = new CSign() { Left = 580, Top = 172 };
+            _splat = new CSplat();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -52,8 +58,9 @@ namespace CockShooter
 
 #endif
             _cock.DrawImage(dc);
-
-            _cock.DrawImage(e.Graphics);
+            _scoreframe.DrawImage(dc);
+            _sign.DrawImage(dc);
+            _splat.DrawImage(dc);
 
             base.OnPaint(e);
         }

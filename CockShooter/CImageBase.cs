@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CockShooter
 {
-    public class CImageBase : IDisposable
+    class CImageBase : IDisposable //class wich managages all the drawing
     {
         bool disposed = false;
 
