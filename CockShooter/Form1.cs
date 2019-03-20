@@ -19,9 +19,13 @@ namespace CockShooter
         int _cursX = 0;
         int _cursY = 0;
 #endif
+        CCock _cock;
+
         public CockShooter()
         {
             InitializeComponent();
+
+            _cock = new CCock() { Left = 10, Top = 200  };
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,7 +51,9 @@ namespace CockShooter
                 _fontt, new Rectangle(0, 0, 120, 20), SystemColors.ControlText, flag); //where to boot the text
 
 #endif
+            _cock.DrawImage(dc);
 
+            _cock.DrawImage(e.Graphics);
 
             base.OnPaint(e);
         }

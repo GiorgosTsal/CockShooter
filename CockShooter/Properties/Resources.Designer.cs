@@ -83,9 +83,19 @@ namespace CockShooter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cock {
+        internal static System.Drawing.Bitmap cockbig {
             get {
-                object obj = ResourceManager.GetObject("cock", resourceCulture);
+                object obj = ResourceManager.GetObject("cockbig", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cocksmall {
+            get {
+                object obj = ResourceManager.GetObject("cocksmall", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
