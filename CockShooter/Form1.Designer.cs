@@ -41,10 +41,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CockShooter.Properties.Resources.background;
-            this.ClientSize = new System.Drawing.Size(796, 586);
+            this.ClientSize = new System.Drawing.Size(784, 548);
             this.Name = "CockShooter";
             this.Text = "Cock Shooter";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CockShooter_MouseMove);
             this.ResumeLayout(false);
 
         }
