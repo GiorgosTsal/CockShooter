@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\CockShooter\CockShooter\bin\Debug\CockShooter.exe.config
+C:\Users\user\source\repos\CockShooter\CockShooter\bin\Debug\CockShooter.exe
+C:\Users\user\source\repos\CockShooter\CockShooter\bin\Debug\CockShooter.pdb
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.csprojAssemblyReference.cache
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.Properties.Resources.resources
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.csproj.GenerateResource.cache
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.exe
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.pdb
+C:\Users\user\source\repos\CockShooter\CockShooter\obj\Debug\CockShooter.CockShooter.resources
