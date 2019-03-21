@@ -113,5 +113,8 @@
   <ItemGroup>
     <None Include="Resources\house-brick-certificate-map-frame-cartoon-page.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun_sound.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

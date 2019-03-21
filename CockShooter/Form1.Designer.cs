@@ -34,6 +34,7 @@
             // 
             // timerLoop
             // 
+            this.timerLoop.Interval = 800;
             this.timerLoop.Tick += new System.EventHandler(this.timerLoop_Tick);
             // 
             // CockShooter
@@ -45,6 +46,7 @@
             this.Name = "CockShooter";
             this.Text = "Cock Shooter";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CockShooter_MouseClick);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CockShooter_MouseMove);
             this.ResumeLayout(false);
 
