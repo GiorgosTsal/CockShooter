@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace CockShooter
 {
     class CCock : CImageBase
-    {
+    {//nothing
 
         private Rectangle _cockHotSpot = new Rectangle();
 
