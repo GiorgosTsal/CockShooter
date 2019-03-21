@@ -1,6 +1,7 @@
 ﻿//#define My_Debug
 
 
+using CockShooter.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +29,11 @@ namespace CockShooter
         {
             InitializeComponent();
 
+            //creation of scope
+            Bitmap b = new Bitmap(Resources.target);
+            this.Cursor = CustomeCursor.CreateCursor(b, b.Height / 2, b.Width / 2);
+
+            
             _cock = new CCock() { Left = 10, Top = 450  };
             _scoreframe = new CScoreFrame() { Left = 10, Top = 10 };
             _sign = new CSign() { Left = 580, Top = 172 };
