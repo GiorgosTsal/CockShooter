@@ -116,7 +116,7 @@ namespace CockShooter
             base.OnPaint(e);
         }
 
-        //UpdateCock() method will update mole position randomly
+        //UpdateCock() method will update cock position randomly
         private void UpdateCock()
         {
             Random rnd = new Random();
@@ -171,8 +171,7 @@ namespace CockShooter
             }
             else
             {
-                //Hit condition which is called from Hit() method in CMole class
-                //(e.X, e.Y) here is the center point position, not mole position
+          
                 if (_cock.Hit(e.X, e.Y))
                 {
                     splat = true;
